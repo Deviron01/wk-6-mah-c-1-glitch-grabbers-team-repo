@@ -4,7 +4,7 @@
 |**Fullname**|**Role**|**Email**|
 |-----------------------|-----------------------|-----------------------|
 |Viron Ochieng|Test Manager|`ochiengviron06@gmail.com`|
-|MarkPaul Ndiragu|Risk Analyst|-----------------------|
+|MarkPaul Ndiragu|Risk Analyst|'mpndirangu6@gmail.com'|
 |Mercy Benu|Test Executor|-----------------------|
 
 
@@ -205,15 +205,12 @@
 
 ## **Risks Identified**
 |Risk name|Likelihood | Severity|Description|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
-|----------------|----------------|----------------|----------------|
+|Form Validation Failure|High|High|Form validation failures (e.g., empty required fields not caught). Users could submit invalid data, leading to errors or "successful" submissions with bad data.|
+|Navigation Issues|Medium|Medium|Navigation issues between pages (e.g., clicking "Home" doesn't hide other pages properly). Could leave users stuck or seeing overlapping content.|
+|Weak Authentication|High|High|Weak authentication (demo accounts with plain-text passwords). In a real app, this exposes credentials; even in demo, teaches poor practices.|
+|Mobile Responsiveness Issues|Medium|Low|Poor mobile responsiveness (e.g., hamburger menu not closing properly on small screens).|
+|Browser Compatibility Inconsistencies|Low|Medium|Browser inconsistencies (e.g., date picker not supported in older browsers like IE).|
+|Slow Loading from External Resources|Low|Medium|Slow loading from external resources (e.g., Google Fonts, Unsplash images). Could delay page render on slow connections.|
 
 
 ##  **Test Automation**
@@ -251,4 +248,5 @@ How confident the group members are with the project(Scale 1-10)
 |----------------|------------------|----------------|
 |Mercy Benu|------------------|----------------|
 |Viron Otieno|------------------|`ochiengviron06@gmail.com`|
-|MarkPaul Ndiragu|------------------|----------------|
+|MarkPaul Ndiragu|5|mpndirangu6@gmail.com|
+
